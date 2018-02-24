@@ -118,9 +118,7 @@ const printLoanStatus=()=>{
 
 const factor = 100000000;
 
-var loanId = ''; // <--ASSOCIATED-WITH-FUNCTIONS---change the value, after createLoanRequest, it can be found console output
-
-// below functions can be run calls step by step by uncommenting
+var loanId = ''; // <--used by other functions
 
 // mintTokens((res)=>console.log(res), account1, 4/*neo amount for minting*/);
 

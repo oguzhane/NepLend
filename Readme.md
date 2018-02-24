@@ -43,6 +43,9 @@
 ## How to Invoke Smart Contract Step by Step
 __I made a simple script to explain invoking step by step.__
 
+*Usage Video*
+[https://www.youtube.com/watch?v=1bB2wiDYALQ](https://www.youtube.com/watch?v=1bB2wiDYALQ)
+
 Firstly, you should make sure that there are two accounts for borrower and lender. Both of them should have sufficient neo and gas assets. We will invoke smart contract with a _nodejs application_ which uses `neon-js` library.
 
 To start invoking, go into nodejs application folder (`neplend-node`) and install dependencies.
@@ -149,6 +152,7 @@ args=[loanIdHexStr, reverseHexOfBorrowerScriptHash]
 
 * ### balanceOf
 Gets balance of account
+
 ![](assets/2018-02-24-07-48-50.png)
 
 ![](assets/2018-02-24-07-48-55.png)
@@ -162,3 +166,14 @@ Prints loan status
 ```
 Registered:20, CollateralLocked:21, Funded:22, Cancelled:23, CollateralClaimed:24, LoanRepaid:25
 ```
+
+## License
+The MIT License (MIT)
+
+Copyright (c) 2018 Oguzhan ERGIN
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
